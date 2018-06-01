@@ -12,7 +12,6 @@ class Owner
 
   def self.reset_all
     self.all.clear
-    # @@all.each{|owner| }
   end
 
   def self.all
