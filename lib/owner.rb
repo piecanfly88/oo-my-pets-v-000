@@ -9,13 +9,16 @@ class Owner
   end
 
   def self.reset_all
-    @@all.clear
+    self.all.clear
     # @@all.each{|owner| }
   end
 
   def self.all
     @@all
   end
+
+  def self.count
+    self.all.count
 
   def say_species
     "I am a #{species}."
