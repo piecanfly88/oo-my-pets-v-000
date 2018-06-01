@@ -1,5 +1,5 @@
 class Fish
-  attr_accessor :mood, :pets
+  attr_accessor :mood, :owner
   attr_reader :name
 
   def initialize(name, mood = "nervous")
