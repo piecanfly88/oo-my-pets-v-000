@@ -25,7 +25,6 @@ class Owner
   def say_species
     "I am a #{species}."
   end
-end
 
   def buy_fish(name)  
     pets[:fishes] << Fish.new(name)
@@ -38,3 +37,4 @@ end
   def buy_dog(name)
     pets[:dogs] << Dog.new(name)
   end
+end  
