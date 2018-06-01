@@ -26,7 +26,7 @@ class Owner
     "I am a #{species}."
   end
 
-  def buy_fish(name)  
+  def buy_fish(name)
     pets[:fishes] << Fish.new(name)
   end
 
@@ -42,5 +42,5 @@ class Owner
     pets[:dogs].each{|dog| dog.mood = "happy"}
   end
 
-  
-end  
+
+end
