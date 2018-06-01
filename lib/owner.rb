@@ -14,7 +14,7 @@ class Owner
     self.all.clear
   end
 
-  def self.all 
+  def self.all
     OWNER
   end
 
@@ -24,17 +24,17 @@ class Owner
 
   def say_species
     "I am a #{species}."
-  end 
-end 
+  end
+end
 
   def buy_fish(name)
     pets[:fishes] << Fish.new(name)
-  end  
+  end
 
   def buy_cat(name)
     pets[:cats] << Cat.new(name)
-  end 
+  end
 
   def buy_dog(name)
     pets[:dogs] << Dog.new(name)
-  end 
+  end
